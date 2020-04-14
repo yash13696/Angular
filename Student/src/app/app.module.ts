@@ -7,7 +7,8 @@ import { ViewComponent } from './view/view.component';
 import { AddComponent } from './add/add.component';
 import { DeleteComponent } from './delete/delete.component';
 import { UpdateComponent } from './update/update.component';
-import { NavComponent } from './nav/nav.component';
+import { HeaderComponent } from './header/header.component';
+
 
 @NgModule({
   declarations: [
@@ -17,7 +18,7 @@ import { NavComponent } from './nav/nav.component';
     AddComponent,
     DeleteComponent,
     UpdateComponent,
-    NavComponent
+    HeaderComponent,
   ],
   imports: [
     BrowserModule
